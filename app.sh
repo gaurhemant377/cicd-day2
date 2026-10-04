@@ -1,6 +1,6 @@
 #!/bin/bash
 
 echo "Application started"
-echo "Application is workin"
+echo "Application is working"
 ~
 
