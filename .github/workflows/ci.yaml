@@ -6,28 +6,33 @@ on:
       - main
 
 jobs:
-
   test:
-
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Show files
+      - name: Test 1
+        run: echo "STEP 1 WORKING"
+
+      - name: Test 2
+        run: pwd
+
+      - name: Test 3
         run: ls -la
 
-      - name: Check file type
-        run: file app.sh test.sh
-
-      - name: Check shell
+      - name: Test 4
         run: bash --version
 
-      - name: Run application
+      - name: Test 5
+        run: cat app.sh
+
+      - name: Test 6
         run: bash app.sh
 
-      - name: Run test
-        run:  bash test.sh
+      - name: Test 7
+        run: cat test.sh
 
+      - name: Test 8
+        run: bash test.sh
