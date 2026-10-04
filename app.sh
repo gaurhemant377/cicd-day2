@@ -2,5 +2,5 @@
 
 echo "Application started"
 echo "Application is working"
-~
+
 
