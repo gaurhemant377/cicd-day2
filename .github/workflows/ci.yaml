@@ -19,12 +19,15 @@ jobs:
       - name: Show files
         run: ls -la
 
+      - name: Check file type
+        run: file app.sh test.sh
+
       - name: Check shell
         run: bash --version
 
       - name: Run application
-        run: ./app.sh
+        run: bash app.sh
 
       - name: Run test
-        run:  ./test.sh
+        run:  bash test.sh
 
