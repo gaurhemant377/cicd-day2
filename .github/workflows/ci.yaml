@@ -25,5 +25,5 @@ jobs:
       - name: Run application
         run: ./app.sh
 
-      - name: Run ./tests.sh
+      - name: Run ./test.sh
 
