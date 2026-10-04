@@ -1,5 +1,6 @@
 #!/bin/bash
 
-echo "Running application..."
+echo "Application started"
+echo "Application is workin"
+~
 
-exit 0
